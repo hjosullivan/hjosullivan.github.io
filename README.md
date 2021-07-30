@@ -2,6 +2,8 @@
 
 Welcome to my (currently very empty) personal website.
 
+The website can be found [here.](https://hjosullivan.github.io)
+
 ## Contents
 
 - **index.html**: Main page.
