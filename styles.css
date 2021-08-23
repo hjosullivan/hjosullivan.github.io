@@ -39,6 +39,7 @@ body, html{
     text-align: center;
     padding:50px 80px;
     background-color: bisque;
+    column-count: 2;
 }
 
 .ptext1 {
@@ -59,11 +60,16 @@ body, html{
     color: black;
     font-size: 27px;
     letter-spacing: 8px;
+
 }
 
 .bordercol{
     background-color: bisque;
     padding: 50px 80px;
+}
+
+.social{
+    padding: 140px 100px;
 }
 
 .footer{
@@ -76,4 +82,41 @@ body, html{
     .pimg1, .pimg2, .pimg3{
         background-attachment: scroll;
     }
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+/* Set a specific color for each brand */
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-github {
+    background: #125688;
+    color: white;
 }
