@@ -10,13 +10,38 @@ body, html{
     color: black;
 }
 
+/* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+
+/* main images */
 .pimg1, .pimg2, .pimg3{
     position:relative;
     opacity:0.70;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
+    /* parallax effect */
     background-attachment: fixed;
 }
 
@@ -39,7 +64,6 @@ body, html{
     text-align: center;
     padding:50px 80px;
     background-color: bisque;
-    column-count: 2;
 }
 
 .ptext1 {
