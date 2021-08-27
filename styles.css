@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue&display=swap');
 
 body, html{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Epilogue', sans-serif;
     height: 100%;
     margin:0;
     font-size:16px;
@@ -12,25 +12,25 @@ body, html{
 
 /* unvisited link */
 a:link {
-    color: red;
+    color: antiquewhite;
     text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: green;
+    color: black;
     text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: #74C6FF;
     text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: blue;
+    color: black;
     text-decoration: none;
 }
 
@@ -46,17 +46,17 @@ a:active {
 }
 
 .pimg1{
-    background-image: url("img1.jpg");
+    background-image: url("c1.png");
     min-height: 100%;
 }
 
 .pimg2{
-    background-image: url("img1.jpg");
+    background-image: url("c1.png");
     min-height: 100%;
 }
 
 .pimg3{
-    background-image: url("img1.jpg");
+    background-image: url("c1.png");
     min-height: 100%;
 }
 
@@ -64,6 +64,7 @@ a:active {
     text-align: center;
     padding:50px 80px;
     background-color: bisque;
+    opacity: 0.7;
 }
 
 .ptext1 {
@@ -71,7 +72,7 @@ a:active {
     top: 50%;
     width: 100%;
     text-align: center;
-    color: black;
+    color: antiquewhite;
     font-size: 5vw;
     letter-spacing: 8px;
 }
@@ -88,7 +89,7 @@ a:active {
 }
 
 .bordercol{
-    background-color: bisque;
+    background-color: none;
     padding: 50px 80px;
 }
 
@@ -100,6 +101,7 @@ a:active {
     text-align:center;
     color: black;
     background-color: bisque;
+    opacity: 0.7;
 }
 
 @media(max-width:568px){
@@ -126,21 +128,16 @@ a:active {
 /* Set a specific color for each brand */
 
 .fa-twitter {
-    background: #55ACEE;
-    color: white;
+    background: #FFE5AA;
+    color: black;
 }
 
 .fa-linkedin {
-    background: #007bb5;
-    color: white;
-}
-
-.fa-instagram {
-    background: #125688;
-    color: white;
+    background: #FFE5AA;
+    color: black;
 }
 
 .fa-github {
-    background: #125688;
-    color: white;
+    background: #FFE5AA;
+    color: black;
 }
