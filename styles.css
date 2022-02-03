@@ -46,17 +46,17 @@ a:active {
 }
 
 .pimg1{
-    background-image: url("c1.png");
+    background-color:azure;
     min-height: 100%;
 }
 
 .pimg2{
-    background-image: url("c1.png");
+    background-color: azure;
     min-height: 100%;
 }
 
 .pimg3{
-    background-image: url("c1.png");
+    background-color: azure;
     min-height: 100%;
 }
 
