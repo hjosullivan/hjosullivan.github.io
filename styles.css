@@ -7,12 +7,12 @@ body, html{
     font-size:16px;
     font-weight:400;
     line-height:1.8em;
-    color: black;
+    color: white;
 }
 
 /* unvisited link */
 a:link {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -24,20 +24,20 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: #74C6FF;
+    color: darkseagreen;
     text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: black;
+    color: mediumseagreen;
     text-decoration: none;
 }
 
 /* main images */
 .pimg1, .pimg2, .pimg3{
     position:relative;
-    opacity:0.70;
+    opacity:0.90;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -46,33 +46,33 @@ a:active {
 }
 
 .pimg1{
-    background-color:azure;
+    background-image:url(palms.JPG);
     min-height: 100%;
 }
 
 .pimg2{
-    background-color: azure;
+    background-image: url(palms.JPG);
     min-height: 100%;
 }
 
 .pimg3{
-    background-color: azure;
+    background-image: url(palms.JPG);
     min-height: 100%;
 }
 
 .section{
     text-align: center;
     padding:50px 80px;
-    background-color: bisque;
+    background-color: darkolivegreen;
     opacity: 0.7;
 }
 
 .ptext1 {
     position: absolute;
-    top: 50%;
+    top: 5%;
     width: 100%;
-    text-align: center;
-    color: antiquewhite;
+    text-align: left;
+    color: white;
     font-size: 5vw;
     letter-spacing: 8px;
 }
@@ -82,12 +82,13 @@ a:active {
     top:50%;
     width:100%;
     text-align:center;
-    color: black;
+    color: white;
     font-size: 27px;
     letter-spacing: 8px;
 
 }
 
+/* footer padding */
 .bordercol{
     background-color: none;
     padding: 50px 80px;
@@ -99,8 +100,8 @@ a:active {
 
 .footer{
     text-align:center;
-    color: black;
-    background-color: bisque;
+    color: white;
+    background-color: darkolivegreen;
     opacity: 0.7;
 }
 
@@ -128,16 +129,34 @@ a:active {
 /* Set a specific color for each brand */
 
 .fa-twitter {
-    background: #FFE5AA;
-    color: black;
+    background: white;
+    color: darkolivegreen;
 }
 
 .fa-linkedin {
-    background: #FFE5AA;
-    color: black;
+    background: white;
+    color: darkolivegreen;
 }
 
 .fa-github {
-    background: #FFE5AA;
-    color: black;
+    background: white;
+    color:darkolivegreen;
 }
+
+.myheader{
+    background-color: none;
+    padding: 50px 20px;
+}
+
+.mysubheader{
+    background-color: none;
+    position: absolute;
+    padding: 50px 20px 40px 450px;
+    font-size: 2vw;
+}
+
+/* TO DO: Add scroll down icon
+* <br>
+<i class="material-icons"
+     style="font-size:56px">
+     arrow_downward</i> */
